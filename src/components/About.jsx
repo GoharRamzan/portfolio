@@ -30,7 +30,7 @@ const About = () => {
         </motion.div>
 
         <motion.div
-          className="md:w-2/5 mt-10 md:mt-0"
+          className="md:w-1/3 mt-10 md:mt-0"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -38,7 +38,7 @@ const About = () => {
           <img
             src={gohar}
             alt="About me"
-            className="rounded-lg shadow-lg w-full md:h-[700px] h-[380px] "
+            className="rounded-lg shadow-lg w-full md:h-[650px] h-[380px] "
           />
         </motion.div>
       </div>
