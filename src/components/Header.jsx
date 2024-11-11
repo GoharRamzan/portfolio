@@ -26,7 +26,6 @@ const Header = () => {
           <ul className="flex space-x-6">
             <li>
               <Link
-              
                 to="about"
                 smooth={true}
                 duration={500}
