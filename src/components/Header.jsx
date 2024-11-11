@@ -22,14 +22,11 @@ const Header = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-
-
-
-        
         <nav className="hidden md:flex">
           <ul className="flex space-x-6">
             <li>
               <Link
+              
                 to="about"
                 smooth={true}
                 duration={500}
