@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   return (
     <motion.header
       initial={{ opacity: 0, y: -50 }}
@@ -35,6 +35,7 @@ const Header = () => {
                 About
               </Link>
             </li>
+            
             <li>
               <Link
                 to="projects"
