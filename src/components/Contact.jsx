@@ -4,7 +4,6 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [formStatus, setFormStatus] = useState('');
-
     const handleSubmit = (event) => {
         event.preventDefault();
         const form = event.target;
