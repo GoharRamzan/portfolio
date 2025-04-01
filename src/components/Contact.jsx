@@ -9,7 +9,6 @@ const Contact = () => {
         const form = event.target;
         console.log(form)
 
-        // Send form data to EmailJS
         emailjs.sendForm('service_581vcl8', 'template_1252sae', form, 'CBQ5HW2wSzIlYLcfY')
             .then((result) => {
                 setFormStatus('Message sent successfully!');
