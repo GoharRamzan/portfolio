@@ -35,7 +35,7 @@ const Header = () => {
                 About
               </Link>
             </li>
-            
+
             <li>
               <Link
                 to="projects"
@@ -92,6 +92,7 @@ const Header = () => {
                 className="hover:text-teal-300 transition-colors duration-300 cursor-pointer"
                 onClick={() => setIsOpen(false)}
               >
+                
                 Contact
               </Link>
             </li>
