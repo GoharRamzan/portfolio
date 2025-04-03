@@ -11,7 +11,6 @@ const About = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
-      
       <div className="container mx-auto p-2 flex flex-col md:flex-row items-center justify-center">
         <motion.div
           className="md:w-2/4 text-center md:text-left"
