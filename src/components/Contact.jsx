@@ -8,7 +8,6 @@ const Contact = () => {
         event.preventDefault();
         const form = event.target;
         console.log(form)
-
         emailjs.sendForm('service_581vcl8', 'template_1252sae', form, 'CBQ5HW2wSzIlYLcfY')
             .then((result) => {
                 setFormStatus('Message sent successfully!');
@@ -17,7 +16,6 @@ const Contact = () => {
                 setFormStatus('Failed to send message. Please try again later.');
             });
     };
-
     return (
         <motion.section
             id="contact"
