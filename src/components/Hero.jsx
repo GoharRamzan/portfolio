@@ -20,6 +20,7 @@ const Hero = () => {
             deleteSpeed={50}
             delaySpeed={1500}
           />
+          
         </h2>
       </div>
     </motion.section>
