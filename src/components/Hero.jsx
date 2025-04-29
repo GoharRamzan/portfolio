@@ -1,7 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
-
 const Hero = () => {
   return (
     <motion.section
