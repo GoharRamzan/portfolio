@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 const projects = [
-  
+
   {
     title: 'Project One',
     description: 'A description of the project goes here.',
