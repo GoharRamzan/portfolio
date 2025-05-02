@@ -22,7 +22,6 @@ const projects = [
   },
 
 
-  
   {
     title: 'Project Two',
     description: 'A description of the project goes here.',
