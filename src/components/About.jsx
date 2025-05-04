@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import gohar from '../assets/gohar.jpg'; // Update the path to your image
 
 const About = () => {
-  
   return (
     <motion.section
       id="about"
