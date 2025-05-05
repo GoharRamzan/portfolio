@@ -18,6 +18,7 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
+          
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-teal-400">About Me</h2>
           <p className="text-lg mb-4">
             I am a passionate web front-end developer with a keen eye for design and a strong background in creating
