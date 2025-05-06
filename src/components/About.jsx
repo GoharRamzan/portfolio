@@ -29,6 +29,7 @@ const About = () => {
           </p>
         </motion.div>
 
+
         <motion.div
           className="md:w-1/3 mt-10 md:mt-0"
           initial={{ x: 100, opacity: 0 }}
