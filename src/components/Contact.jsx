@@ -16,6 +16,7 @@ const Contact = () => {
                 setFormStatus('Failed to send message. Please try again later.');
             });
     };
+    
     return (
         <motion.section
             id="contact"
