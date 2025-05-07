@@ -35,6 +35,7 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
         >
+          
           <img
             src={gohar}
             alt="About me"
