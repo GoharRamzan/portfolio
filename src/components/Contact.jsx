@@ -17,7 +17,6 @@ const Contact = () => {
             });
     };
 
-    
     return (
         <motion.section
             id="contact"
