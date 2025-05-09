@@ -25,7 +25,6 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
         >
 
-            
             <div className="container mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-teal-400">Contact Me</h2>
                 <div className="flex justify-center">
