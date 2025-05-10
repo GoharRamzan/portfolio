@@ -31,7 +31,6 @@ const Contact = () => {
                         onSubmit={handleSubmit}
                         className="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg"
                     >
-                        
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-lg mb-2">Name</label>
                             <input
