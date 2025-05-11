@@ -40,6 +40,7 @@ const Contact = () => {
                                 required
                                 className="w-full p-3 bg-gray-700 text-white border border-gray-600 rounded-lg"
                             />
+
                             
                         </div>
                         <div className="mb-4">
