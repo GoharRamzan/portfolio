@@ -70,7 +70,6 @@ const Contact = () => {
                         {formStatus && (
                             <p className="mt-4 text-center text-teal-400">{formStatus}</p>
                         )}
-                        
                     </form>
                 </div>
             </div>
