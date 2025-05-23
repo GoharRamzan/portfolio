@@ -22,7 +22,6 @@ const Hero = () => {
             delaySpeed={1500}
           />
         </h2>
-        
       </div>
     </motion.section>
   );
