@@ -26,5 +26,4 @@ const Hero = () => {
     </motion.section>
   );
 };
-
 export default Hero;
