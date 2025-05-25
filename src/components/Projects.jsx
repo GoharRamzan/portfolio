@@ -41,7 +41,6 @@ const projects = [
   // Add more projects as needed
 ];
 const Projects = () => {
-
   return (
     <motion.section
       id="projects"
