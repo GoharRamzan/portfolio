@@ -33,13 +33,14 @@ const projects = [
     link: '#'
   },
   {
+    
     title: 'Project Two',
     description: 'A description of the project goes here.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHByb2dyYW1tZXJ8ZW58MHx8fHwxNjAwMTY0MzEz&ixlib=rb-1.2.1&q=80&w=1080',
     link: '#'
   },
   // Add more projects as needed
-  
+
 ];
 const Projects = () => {
   return (
