@@ -39,6 +39,7 @@ const projects = [
     link: '#'
   },
   // Add more projects as needed
+  
 ];
 const Projects = () => {
   return (
