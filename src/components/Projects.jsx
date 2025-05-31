@@ -42,7 +42,6 @@ const projects = [
 ];
 
 
-
 const Projects = () => {
   return (
     <motion.section
