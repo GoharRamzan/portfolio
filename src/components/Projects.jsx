@@ -1,44 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import nutrack from '../assets/nut.PNG'
+import hedgeplay from '../assets/hed.PNG'
+import mystical from '../assets/mys.PNG'
+import mmc from '../assets/mmc.PNG'
+import nub from '../assets/nub.PNG'
 const projects = [
 
   {
-    title: 'Project One',
+    title: 'Nutrack',
     description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGdyYXBoaWNzJTIwZGVzaWdufGVufDB8fHx8MTYwMDE2NDMxMw&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
+    image: nutrack,
+    link: 'https://nutrack.nubitsoft.com/'
   },
   {
-    title: 'Project Two',
+    title: 'Hedgeplay',
     description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHByb2dyYW1tZXJ8ZW58MHx8fHwxNjAwMTY0MzEz&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
+    image: hedgeplay,
+    link: 'https://hedgeplay.com.pk/'
   },
   {
-    title: 'Project One',
+    title: 'Mystical Fragrance',
     description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGdyYXBoaWNzJTIwZGVzaWdufGVufDB8fHx8MTYwMDE2NDMxMw&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
+    image: mystical,
+    link: 'https://www.mysticalfragrance.com/'
   },
   {
-    title: 'Project Two',
+    title: 'MMC',
     description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHByb2dyYW1tZXJ8ZW58MHx8fHwxNjAwMTY0MzEz&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
+    image: mmc,
+    link: 'https://lineup.pk/'
   },
   {
-    title: 'Project One',
+    title: 'Nubit Software',
     description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGdyYXBoaWNzJTIwZGVzaWdufGVufDB8fHx8MTYwMDE2NDMxMw&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
+    image: nub,
+    link: 'https://nubitsoft.com/'
   },
-  {
-    title: 'Project Two',
-    description: 'A description of the project goes here.',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHByb2dyYW1tZXJ8ZW58MHx8fHwxNjAwMTY0MzEz&ixlib=rb-1.2.1&q=80&w=1080',
-    link: '#'
-  },
-  // Add more projects as needed
+
 ];
 
 
