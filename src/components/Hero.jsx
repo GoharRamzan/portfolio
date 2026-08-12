@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center z-10">
         
-        {/* Left Info */}
+        
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -91,7 +91,7 @@ const Hero = () => {
           </div>
         </motion.div>
 
-        {/* Right Terminal Graphic */}
+        
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}

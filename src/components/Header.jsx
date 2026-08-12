@@ -40,7 +40,6 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         
-        {/* Developer Logo */}
         <Link
           to="hero"
           smooth={true}
@@ -55,7 +54,6 @@ const Header = () => {
           </div>
         </Link>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800/80 backdrop-blur-sm">
           <ul className="flex items-center space-x-1">
             {navLinks.map((link) => (
@@ -75,7 +73,6 @@ const Header = () => {
           </ul>
         </nav>
 
-        {/* Right CTA Button */}
         <div className="hidden md:flex items-center gap-4">
           <Link
             to="contact"
@@ -88,7 +85,6 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Mobile Hamburger Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden p-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white focus:outline-none"
@@ -98,7 +94,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Drawer Navigation */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

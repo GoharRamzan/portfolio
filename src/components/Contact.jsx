@@ -44,12 +44,10 @@ const Contact = () => {
       id="contact"
       className="py-24 bg-slate-950 text-slate-100 relative overflow-hidden"
     >
-      {/* Background Radial Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 blur-[150px] rounded-full pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -70,7 +68,6 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
-          {/* Left Side: Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -86,7 +83,6 @@ const Contact = () => {
 
               <div className="space-y-4 pt-2">
                 
-                {/* Status Card */}
                 <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
                   <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
                     <span className="relative flex h-3 w-3">
@@ -100,7 +96,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Email Info */}
                 <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
                   <div className="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,7 +108,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Response Time */}
                 <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-950/80 border border-slate-800">
                   <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -130,7 +124,6 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          {/* Right Side: Form */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -143,7 +136,7 @@ const Contact = () => {
               className="bg-slate-900/60 border border-slate-800 p-8 sm:p-10 rounded-2xl backdrop-blur-xl shadow-2xl space-y-6"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {/* Name Input */}
+                
                 <div className="space-y-2">
                   <label htmlFor="name" className="block text-xs font-mono text-slate-300 uppercase tracking-wider">
                     Your Name
@@ -158,7 +151,6 @@ const Contact = () => {
                   />
                 </div>
 
-                {/* Email Input */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="block text-xs font-mono text-slate-300 uppercase tracking-wider">
                     Your Email
@@ -174,7 +166,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Message Input */}
               <div className="space-y-2">
                 <label htmlFor="message" className="block text-xs font-mono text-slate-300 uppercase tracking-wider">
                   Your Message
@@ -189,7 +180,6 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -212,8 +202,6 @@ const Contact = () => {
                   </>
                 )}
               </button>
-
-              {/* Status Message Display */}
               {formStatus.message && (
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}

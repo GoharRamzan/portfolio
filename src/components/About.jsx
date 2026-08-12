@@ -51,7 +51,6 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          {/* Image Box */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -70,7 +69,6 @@ const About = () => {
                 />
               </div>
 
-              {/* Badge */}
               <div className="absolute -bottom-6 -right-2 sm:right-4 bg-slate-900/90 backdrop-blur-md border border-cyan-500/40 px-4 py-3 rounded-2xl shadow-xl flex items-center gap-3">
                 <div className="w-10 h-10 rounded-xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-mono font-bold text-lg">
                   MERN
@@ -83,7 +81,6 @@ const About = () => {
             </div>
           </motion.div>
 
-          {/* Details */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}

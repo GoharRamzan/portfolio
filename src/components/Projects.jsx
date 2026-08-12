@@ -81,13 +81,13 @@ const Projects = () => {
       id="projects"
       className="py-24 bg-slate-950 text-slate-100 relative overflow-hidden"
     >
-      {/* Background Lighting */}
+      
       <div className="absolute top-1/3 right-0 w-96 h-96 bg-cyan-500/10 blur-[130px] rounded-full pointer-events-none" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-blue-600/10 blur-[130px] rounded-full pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         
-        {/* Section Header */}
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        {/* Projects Grid */}
+        
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -121,7 +121,7 @@ const Projects = () => {
               className="group relative bg-slate-900/70 border border-slate-800/80 hover:border-cyan-500/40 rounded-2xl overflow-hidden shadow-xl hover:shadow-cyan-950/30 transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                {/* Project Image Box with Hover Overlay */}
+                
                 <div className="relative h-52 w-full overflow-hidden bg-slate-950">
                   <img
                     src={project.image}
@@ -130,13 +130,13 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80" />
                   
-                  {/* Top Badge */}
+                  
                   <div className="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md border border-slate-800 px-3 py-1 rounded-full text-[11px] font-mono text-cyan-400">
                     {project.category}
                   </div>
                 </div>
 
-                {/* Card Body */}
+                
                 <div className="p-6 space-y-3">
                   <h3 className="text-xl font-bold text-slate-100 group-hover:text-cyan-400 transition-colors">
                     {project.title}
@@ -146,7 +146,7 @@ const Projects = () => {
                     {project.description}
                   </p>
 
-                  {/* Tech Stack Tags */}
+                 
                   <div className="flex flex-wrap gap-1.5 pt-2">
                     {project.tags.map((tag, idx) => (
                       <span
@@ -160,7 +160,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Card Footer Link */}
+             
               <div className="p-6 pt-0 mt-auto">
                 <a
                   href={project.link}
