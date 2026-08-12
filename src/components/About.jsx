@@ -42,7 +42,7 @@ const About = () => {
           className="text-center md:text-left mb-16 space-y-3"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-cyan-500/30 text-cyan-400 font-mono text-xs">
-            <span>// Full Stack Overview</span>
+            <span>Full Stack Overview</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
             About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Me</span>

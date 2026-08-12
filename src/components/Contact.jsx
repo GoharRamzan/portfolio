@@ -56,7 +56,7 @@ const Contact = () => {
           className="text-center space-y-3 mb-16"
         >
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900 border border-cyan-500/30 text-cyan-400 font-mono text-xs">
-            <span>// Let's Connect</span>
+            <span> Let's Connect</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
             Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Touch</span>
